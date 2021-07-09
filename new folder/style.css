@@ -1,0 +1,49 @@
+body{
+    width: 98%;
+    background-image: url(image/wall.jpg);
+}
+#countHolder{
+    border: 2px solid white;
+    width: 60%;
+    height: 100%;
+    box-shadow: 5px 10px 10px 1px black;
+    text-align: center;
+    margin-left: 20%;
+}
+.countHeader{
+    color: white;
+    font-size: 30px;
+}
+.botton1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.space{
+    height: 10px;
+}
+.add-count{
+    background-color: #003780;
+    padding-top: 10px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    margin-bottom: 30px;
+    font-size: inherit;
+    border: 2px solid silver;
+}
+.lower-count{
+    background-color: #003780;
+    text-align: center;
+    width: 150px;
+    color: white;
+    font-size: inherit;
+    height: 30px;
+    border: 2px solid silver;
+    padding-top: 10px;
+}
+.counterDisplay{
+    color: green;
+    font-size: 7em;
+}
